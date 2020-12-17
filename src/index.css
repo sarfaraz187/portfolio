@@ -64,6 +64,14 @@ body {
   text-align: center !important;
 }
 
+.avatar {
+  width: 220px;
+}
+
+.desk {
+  width: 650px;
+}
+
 .intro-layout {
   background-color: white;
   color: #0a0a0a;
@@ -95,6 +103,7 @@ body {
 .is-primary {
   background-color: #7510f7;
   color: #fff;
+  padding-bottom: 15rem;
 }
 
 .is-centered {
@@ -116,6 +125,32 @@ body {
   font-weight: 600;
 }
 
+/* End of about Page */
+
+/* Start of Skill Page */
+.skill_layout {
+  margin-top: -14rem;
+}
+
+.container.is-narrow {
+  max-width: 85%;
+  background-color: white;
+  border: 1px solid #e6ecf8;
+  border-radius: 12px;
+}
+
+.column {
+  border-right: 1px solid #e6ecf8;
+  padding: 70px 45px;
+  border-radius: 12px;
+}
+
+.skill-height {
+  height: 100%;
+}
+
+/* End of Skill Page */
+
 /* @media screen and (min-width: 1408px) {
   .container {
     max-width: 1344px;
@@ -127,13 +162,44 @@ body {
     max-width: 1152px;
   }
 }
-
+*/
 @media screen and (min-width: 1024px) {
-  .container {
+  /* .container {
     max-width: 960px;
   }
 
   .desk {
     width: 100px;
+  } */
+  .about-layout {
+    width: 100%;
   }
-} */
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem !important;
+  }
+
+  .subtitle {
+    font-size: 1.2rem !important;
+  }
+
+  .avatar {
+    width: 170px;
+  }
+
+  .desk {
+    max-width: 460px;
+  }
+
+  .about-layout {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .desk {
+    max-width: 280px;
+  }
+}

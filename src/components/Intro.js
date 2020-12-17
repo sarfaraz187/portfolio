@@ -11,11 +11,11 @@ const Intro = () => {
           <p className="subtitle">
             I design and code beautifully simple things, and I love what I do.
           </p>
-          <img className="my-4" width="220px" alt="avatar" src={avatar} />
+          <img className="my-4 avatar" alt="avatar" src={avatar} />
         </div>
       </div>
       <div className="intro-footer">
-        <img alt="desk" src={desk} />
+        <img className="desk" alt="desk" src={desk} />
       </div>
     </React.Fragment>
   );
