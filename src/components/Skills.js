@@ -3,7 +3,7 @@ import frontend from "../images/frontend.svg";
 import mentor from "../images/mentor.svg";
 const Skills = () => {
   return (
-    <div className="container is-narrow shadow-sm">
+    <div className="container is-narrow skills-layout shadow-sm">
       <div className="row skill-height">
         <div className="col-lg-4 col-md-12 column">
           <figure>

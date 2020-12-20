@@ -1,6 +1,6 @@
 const MyWork = () => {
   return (
-    <div className="container my-work-grid">
+    <div className="container grid">
       <h3 className="title">My Recent Work</h3>
       <p className="subtitle mb-5">
         Here are a few projects with Freshworks I've worked on recently.
