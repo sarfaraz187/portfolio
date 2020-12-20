@@ -15,6 +15,10 @@ body {
   line-height: 1.5;
 }
 
+.section {
+  padding: 5rem 1.5rem;
+}
+
 .content {
   font-weight: 200;
   line-height: 30px;
@@ -101,13 +105,13 @@ body {
   color: #141c3a;
   font-weight: 800;
   font-family: sans-serif;
-  letter-spacing: 0.1rem;
+  /* letter-spacing: 0.1rem; */
   margin-bottom: 1.5rem;
 }
 
 .subtitle {
-  font-family: "europa", sans-serif;
-  /* font-weight: 300; */
+  /* font-family: "europa", sans-serif; */
+  font-weight: 200 !important;
   line-height: 1.5;
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
@@ -118,7 +122,7 @@ body {
 .is-primary {
   background-color: #7510f7;
   color: #fff;
-  padding-bottom: 15rem;
+  padding-bottom: 8rem;
 }
 
 .is-centered {
@@ -130,8 +134,8 @@ body {
 }
 
 .about-layout {
-  padding: 9rem 1.5rem;
-  width: 60%;
+  padding: 5rem 1.5rem;
+  /* width: 60%; */
   margin: auto;
 }
 
@@ -148,7 +152,7 @@ body {
 }
 
 .container.is-narrow {
-  max-width: 85%;
+  max-width: 90%;
   background-color: white;
   border: 1px solid #e6ecf8;
   border-radius: 12px;
@@ -157,7 +161,7 @@ body {
 .column {
   border-right: 1px solid #e6ecf8;
   padding: 70px 45px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 .skill-height {
@@ -171,6 +175,61 @@ section .container .row .column ul {
 }
 
 /* End of Skill Page */
+
+/* Start of My Work Page */
+.is-medium {
+  padding: 8rem 1.5rem;
+}
+
+.my-work-grid {
+  max-width: 92%;
+}
+
+.my-work-box {
+  position: relative;
+  height: 92%;
+  border-radius: 12px;
+  margin: 0.75rem;
+}
+
+.project-thumb {
+  border-radius: 0.8rem;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.my-work-box:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0;
+  border-radius: 0.8rem;
+  transition: 0.75s ease;
+  background-color: #141c3a;
+  padding: 3rem;
+}
+
+.text {
+  color: white;
+  font-size: 1.5rem;
+}
+/* End of My work Page */
+
+/* Start of Clients Page */
+.has-border-top {
+  border-top: 1px solid #e6ecf8;
+}
+/* End of Clients Page */
 
 /* @media screen and (min-width: 1408px) {
   .container {
@@ -193,13 +252,17 @@ section .container .row .column ul {
     width: 100px;
   } */
   .about-layout {
-    width: 100%;
+    width: 60%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .title {
     font-size: 2rem !important;
+  }
+
+  .container.is-narrow {
+    max-width: 100%;
   }
 
   .subtitle {
@@ -216,6 +279,17 @@ section .container .row .column ul {
 
   .about-layout {
     width: 100%;
+    padding: 2rem 0rem 8rem 0rem;
+  }
+
+  .my-work-grid {
+    max-width: 100%;
+    padding: 0px;
+  }
+
+  .my-work-box {
+    height: 100%;
+    /* margin-bottom: 1rem; */
   }
 }
 
