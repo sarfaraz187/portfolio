@@ -1,4 +1,5 @@
 import Clients from "./Clients";
+import Footer from "./Footer";
 import Intro from "./Intro";
 import MyWork from "./MyWork";
 import Nav from "./Nav";
@@ -28,7 +29,7 @@ const App = () => {
           description={descriptionObj.aboutDescription}
         />
       </section>
-      <section className="section skill_layout has-text-centered">
+      <section className="section skill-layout has-text-centered">
         <Skills />
       </section>
       <section className="section is-medium has-text-centered">
@@ -43,12 +44,15 @@ const App = () => {
           description={descriptionObj.projectDescription}
         />
       </section>
-      <section className="section skill_layout has-text-centered">
+      <section className="section projects-layout has-text-centered">
         <Projects />
       </section>
       <section className="section call-to-action is-primary has-text-centered">
         <StartProject />
       </section>
+      <footer className="is-small has-text-centered">
+        <Footer />
+      </footer>
     </div>
   );
 };

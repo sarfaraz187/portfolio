@@ -147,15 +147,13 @@ body {
 /* End of about Page */
 
 /* Start of Skill Page */
-.skill_layout {
-  margin-top: -14rem;
-}
 
 .container.is-narrow {
   max-width: 90%;
 }
 
 .skills-layout {
+  margin-top: -14rem;
   background-color: white;
   border: 1px solid #e6ecf8;
   border-radius: 12px;
@@ -180,8 +178,13 @@ section .container .row .column ul {
 /* End of Skill Page */
 
 /* Start of My Work Page */
+.projects-layout {
+  margin-top: -14rem;
+  padding-bottom: 12rem;
+}
+
 .is-medium {
-  padding: 8rem 1.5rem;
+  padding: 5rem 1.5rem;
 }
 
 .grid {
@@ -249,12 +252,93 @@ section .container .row .column ul {
 /* End of Projects Page */
 
 /* Start of Start Projects Page */
+
+.connect {
+  font-family: sans-serif;
+}
+
 .box {
   margin-top: -9rem;
+  align-items: center;
   background-color: #141c3a;
+  border-radius: 12px;
+  padding: 2.5rem 1.25rem;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #141c3a;
 }
+
+.button {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  padding: 1.25em 2em;
+  font-size: 1.25rem;
+  margin-left: 1rem;
+  padding: 0.8rem 2em;
+  font-weight: 200;
+  border-radius: 14rem;
+  align-items: center;
+  border: 2px solid #7510f7;
+}
+
+.button:hover {
+  background-color: #7510f7;
+  color: white;
+}
 /* End of Start Projects Page */
+
+/* Start of footer Page */
+footer .is-small {
+  padding: 1rem 1.5rem 4rem;
+}
+
+footer {
+  background-color: #7510f7;
+  color: white;
+}
+
+footer .title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin: 2rem auto;
+  /* max-width: 300px; */
+  opacity: 0.7;
+}
+
+.is-one-third {
+  width: 33.33%;
+}
+
+footer .social-icons .fields {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+a.icons {
+  background-color: transparent;
+  color: white;
+  border-radius: 100%;
+  display: block;
+  height: 43px;
+  width: 45px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.icons:hover {
+  color: red;
+  background: white;
+  color: #7510f7;
+  border: 2px solid white;
+}
+
+svg.bi.bi-instagram,
+svg.bi.bi-linkedin,
+svg.bi.bi-envelope {
+  margin-top: 10px;
+}
+
+/* End of footer Page */
 
 /* @media screen and (min-width: 1408px) {
   .container {
@@ -319,6 +403,18 @@ section .container .row .column ul {
 
   .project-box {
     height: 100%;
+  }
+
+  .have-margin {
+    margin-bottom: 1.5rem;
+  }
+
+  p.title.is-size-4-touch {
+    font-size: 1.5rem !important;
+  }
+
+  .is-one-third {
+    width: 66.66%;
   }
 }
 

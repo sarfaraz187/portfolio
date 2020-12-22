@@ -4,10 +4,10 @@ const Projects = () => {
   return (
     <div className="container grid">
       <div className="row">
-        <div className="col-lg-4 col-md-12 p-0">
+        <div className="col-lg-4 col-md-12 p-0 have-margin">
           <figure className="project-box shadow-sm">
             <img className="mb-5" alt="houston" src={houston}></img>
-            <figcaption className="">
+            <figcaption>
               <h3 className="content mb-5">
                 Next level plug and play chassis systems for custom
                 do-it-yourself lightsaber builds.
@@ -19,10 +19,10 @@ const Projects = () => {
             </figcaption>
           </figure>
         </div>
-        <div className="col-lg-4 col-md-12 p-0">
+        <div className="col-lg-4 col-md-12 p-0 have-margin">
           <figure className="project-box shadow-sm">
             <img className="mb-5" alt="houston" src={houston}></img>
-            <figcaption className="">
+            <figcaption>
               <h3 className="content mb-5">
                 Next level plug and play chassis systems for custom
                 do-it-yourself lightsaber builds.
@@ -30,10 +30,10 @@ const Projects = () => {
             </figcaption>
           </figure>
         </div>
-        <div className="col-lg-4 col-md-12 p-0">
+        <div className="col-lg-4 col-md-12 p-0 have-margin">
           <figure className="project-box shadow-sm">
             <img className="mb-5" alt="houston" src={houston}></img>
-            <figcaption className="">
+            <figcaption>
               <h3 className="content mb-5">
                 Next level plug and play chassis systems for custom
                 do-it-yourself lightsaber builds.
@@ -43,10 +43,10 @@ const Projects = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-4 col-md-12 p-0">
+        <div className="col-lg-4 col-md-12 p-0 have-margin">
           <figure className="project-box shadow-sm">
             <img className="mb-5" alt="houston" src={houston}></img>
-            <figcaption className="">
+            <figcaption>
               <h3 className="content mb-5">
                 Next level plug and play chassis systems for custom
                 do-it-yourself lightsaber builds.
@@ -58,10 +58,10 @@ const Projects = () => {
             </figcaption>
           </figure>
         </div>
-        <div className="col-lg-4 col-md-12 p-0">
+        <div className="col-lg-4 col-md-12 p-0 have-margin">
           <figure className="project-box shadow-sm">
             <img className="mb-5" alt="houston" src={houston}></img>
-            <figcaption className="">
+            <figcaption>
               <h3 className="content mb-5">
                 Next level plug and play chassis systems for custom
                 do-it-yourself lightsaber builds.
@@ -69,10 +69,10 @@ const Projects = () => {
             </figcaption>
           </figure>
         </div>
-        <div className="col-lg-4 col-md-12 p-0">
+        <div className="col-lg-4 col-md-12 p-0 have-margin">
           <figure className="project-box shadow-sm">
             <img className="mb-5" alt="houston" src={houston}></img>
-            <figcaption className="">
+            <figcaption>
               <h3 className="content mb-5">
                 Next level plug and play chassis systems for custom
                 do-it-yourself lightsaber builds.

@@ -1,5 +1,3 @@
-// import { Button } from "react-bootstrap";
-// import { Link}
 import "../index.css";
 import logo from "../images/mf-logo.svg";
 
