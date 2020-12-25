@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const StartProject = () => {
   return (
     <div className="container is-narrow">
@@ -12,9 +15,9 @@ const StartProject = () => {
           </p>
         </div>
         <div className="col-lg-4 col-md-12 my-3">
-          <a className="button" href="/">
+          <Link className="button" to="/contact">
             Let's do this
-          </a>
+          </Link>
         </div>
       </div>
     </div>

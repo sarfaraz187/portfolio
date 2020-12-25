@@ -1,3 +1,4 @@
+import React from "react";
 import company from "../images/goodkind.svg";
 import chronicled from "../images/chronicled.svg";
 

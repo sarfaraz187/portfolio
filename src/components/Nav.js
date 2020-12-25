@@ -1,13 +1,15 @@
 import "../index.css";
+import React from "react";
 import logo from "../images/mf-logo.svg";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           <img alt="logo" src={logo} />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,7 +21,10 @@ export default function Nav() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse " id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse has-text-centered"
+          id="navbarSupportedContent"
+        >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
           <div className="nav-item">
             <a className="nav-link projects-link" href="/">
@@ -27,9 +32,11 @@ export default function Nav() {
             </a>
           </div>
           <div className="nav-item contact-div">
-            <a href="/" className="contact-link nav-link">
+            {/* <a href="/" className="contact-link nav-link"> */}
+            <Link className="contact-link nav-link" to="/contact">
               Say Hello
-            </a>
+            </Link>
+            {/* </a> */}
           </div>
         </div>
       </div>

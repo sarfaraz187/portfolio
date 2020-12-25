@@ -1,3 +1,4 @@
+import React from "react";
 import houston from "../images/houston.svg";
 
 const Projects = () => {
@@ -12,7 +13,7 @@ const Projects = () => {
                 Next level plug and play chassis systems for custom
                 do-it-yourself lightsaber builds.
               </h3>
-              <a href="#">
+              <a href="/">
                 <span className="icon"></span>
                 <span>In development</span>
               </a>
@@ -51,7 +52,7 @@ const Projects = () => {
                 Next level plug and play chassis systems for custom
                 do-it-yourself lightsaber builds.
               </h3>
-              <a href="#">
+              <a href="/">
                 <span className="icon"></span>
                 <span>In development</span>
               </a>
