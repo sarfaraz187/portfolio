@@ -59,6 +59,7 @@ const App = () => {
               <Footer />
             </footer>
           </Route>
+          {/* <Redirect exact from="/" to="/" /> */}
           <Route path="/contact">
             <section className="animate-fadeDown">
               <Contact />
