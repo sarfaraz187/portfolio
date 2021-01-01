@@ -1,6 +1,8 @@
 import React from "react";
-import company from "../images/goodkind.svg";
-import chronicled from "../images/chronicled.svg";
+import icertis from "../images/icertis-logo.png";
+import freshworks from "../images/Freshworks.png";
+import Jellyfish from "../images/jellyfish.png";
+import Opendoor from "../images/Opendoor.png";
 
 const Clients = () => {
   return (
@@ -12,24 +14,24 @@ const Clients = () => {
           </h3>
         </div>
         <div className="row">
-          <div className="col-lg-3 col-md-6 col-sm-6 p-0">
+          <div className="col-lg-3 col-md-6 col-sm-6 company-logo">
             <figure className="p-9">
-              <img className="w-100" alt="company" src={company}></img>
+              <img className="w-55" alt="company" src={icertis}></img>
             </figure>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-6 p-0">
+          <div className="col-lg-3 col-md-6 col-sm-6 company-logo">
             <figure className="p-9">
-              <img className="w-100" alt="chronicled" src={chronicled}></img>
+              <img className="w-71" alt="chronicled" src={freshworks}></img>
             </figure>{" "}
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-6 p-0">
-            <figure className="p-9">
-              <img className="w-100" alt="company" src={company}></img>
+          <div className="col-lg-3 col-md-6 col-sm-6 company-logo">
+            <figure className="p-9 pt-2">
+              <img className="w-55" alt="company" src={Jellyfish}></img>
             </figure>{" "}
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-6 p-0">
+          <div className="col-lg-3 col-md-6 col-sm-6 company-logo">
             <figure className="p-9">
-              <img className="w-100" alt="chronicled" src={chronicled}></img>
+              <img className="w-55" alt="chronicled" src={Opendoor}></img>
             </figure>{" "}
           </div>
         </div>

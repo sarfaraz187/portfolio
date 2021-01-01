@@ -43,45 +43,6 @@ const Projects = () => {
           </figure>
         </div>
       </div>
-      <div className="row">
-        <div className="col-lg-4 col-md-12 p-0 have-margin">
-          <figure className="project-box shadow-sm">
-            <img className="mb-5" alt="houston" src={houston}></img>
-            <figcaption>
-              <h3 className="content mb-5">
-                Next level plug and play chassis systems for custom
-                do-it-yourself lightsaber builds.
-              </h3>
-              <a href="/">
-                <span className="icon"></span>
-                <span>In development</span>
-              </a>
-            </figcaption>
-          </figure>
-        </div>
-        <div className="col-lg-4 col-md-12 p-0 have-margin">
-          <figure className="project-box shadow-sm">
-            <img className="mb-5" alt="houston" src={houston}></img>
-            <figcaption>
-              <h3 className="content mb-5">
-                Next level plug and play chassis systems for custom
-                do-it-yourself lightsaber builds.
-              </h3>
-            </figcaption>
-          </figure>
-        </div>
-        <div className="col-lg-4 col-md-12 p-0 have-margin">
-          <figure className="project-box shadow-sm">
-            <img className="mb-5" alt="houston" src={houston}></img>
-            <figcaption>
-              <h3 className="content mb-5">
-                Next level plug and play chassis systems for custom
-                do-it-yourself lightsaber builds.
-              </h3>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
     </div>
   );
 };
