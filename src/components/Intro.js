@@ -7,7 +7,7 @@ const Intro = () => {
     <React.Fragment>
       <div className="intro-body">
         <div className="container">
-          <h1 className="title">Designer, Front-end Developer & Mentor</h1>
+          <h1 className="title">Hi, I'm Mohammed Sarfaraz.</h1>
           <p className="subtitle">
             I design and code beautifully simple things, and I love what I do.
           </p>

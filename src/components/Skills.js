@@ -11,21 +11,21 @@ const Skills = () => {
           <figure>
             <img alt="designer" src={designer}></img>
           </figure>
-          <h3 className="title is-size-4 is-spaced my-5">Designer</h3>
+          <h3 className="title is-size-4 is-spaced my-5">Open-source</h3>
           <p className="content">
-            I value simple content structure, clean design patterns, and
-            thoughtful interactions.
+            I have had time to contribute towards the Freshworks community. With
+            a PR to the Freshworks marketplace sample apps Github repository.
           </p>
           <p className="list-title has-text-primary has-text-weight-normal ">
             Things I enjoy designing:
           </p>
           <p className="content">UX, UI, Web, Mobile, Apps, Logos</p>
           <p className="list-title has-text-primary has-text-weight-normal">
-            Design Tools:
+            Dev Tools:
           </p>
           <ul className="list content">
-            <li>Bootstrap</li>
-            <li>Figma</li>
+            <li>Freshdesk SDK</li>
+            <li>FullContact API's</li>
           </ul>
         </div>
         <div className="col-lg-4 col-md-12 column">
@@ -42,15 +42,14 @@ const Skills = () => {
           <p className="list-title has-text-primary has-text-weight-normal">
             Languages I speak:
           </p>
-          <p className="content">HTML, Pug, Slim, CSS, Sass, Less</p>
+          <p className="content">HTML, CSS, Javascript, React</p>
           <p className="list-title has-text-primary has-text-weight-normal">
             Dev Tools:
           </p>
           <ul className="list content">
             <li>Bitbucket</li>
-            <li>Bootstrap </li>
+            <li>Bootstrap</li>
             <li>Github</li>
-            <li>Terminal</li>
             <li>Codepen</li>
             <li>ESlint</li>
           </ul>
@@ -59,22 +58,23 @@ const Skills = () => {
           <figure>
             <img alt="mentor" src={mentor}></img>
           </figure>
-          <h3 className="title is-size-4 is-spaced my-5">Mentor</h3>
+          <h3 className="title is-size-4 is-spaced my-5">Achivements</h3>
           <p className="content">
-            I genuinely care about people, and love helping fellow designers
-            work on their craft.
+            One of the Freshworks Developer Community Champions for providing
+            contributions via solutions, helpful feedback and discussions for
+            the developer community..
           </p>
           <p className="list-title has-text-primary has-text-weight-normal">
-            Experiences I draw from:
+            Knowledge I draw from:
           </p>
-          <p className="content">UX/UI, Product design, Freelancing</p>
+          <p className="content">Medium, Techcrunch, Codecamp, Dev community</p>
           <p className="list-title has-text-primary has-text-weight-normal">
-            Mentor Stats:
+            Study Stats:
           </p>
           <ul className="list content">
-            <li>5 years experience 42 bootcamps</li>
-            <li>26 short courses</li>
-            <li>42 bootcamps</li>
+            <li>4 courses in Frontend Masters</li>
+            <li>3 Courses in Udemy</li>
+            <li></li>
           </ul>
         </div>
       </div>

@@ -274,6 +274,12 @@ a.disabled {
   padding: 60px 35px;
 }
 
+.project-link,
+.project-link:hover {
+  text-decoration: none;
+  opacity: 0.5;
+  font-size: 1.1rem;
+}
 /* End of Projects Page */
 
 /* Start of Start Projects Page */

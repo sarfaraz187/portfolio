@@ -12,12 +12,12 @@ import SubHeading from "./SubHeading";
 
 const App = () => {
   const descriptionObj = {
-    aboutTitle: "Hi, I’m Sarfaraz. Nice to meet you.",
+    aboutTitle: "Nice to meet you.",
     aboutDescription:
-      "Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.",
+      "Since beginning my journey as a web developer i have been qurious i , I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.",
     projectTitle: "My Startup Projects",
     projectDescription:
-      "I'm a bit of a digital product junky. Over the years, I've used hundreds of web and mobile apps in different industries and verticals. Eventually, I decided that it would be a fun challenge to try designing and building my own.",
+      "I'm a bit of a digital product junky. I spend a lot of time in learning things related to Front-end Technologies. Eventually, I decided that it would be a fun challenge to try designing and building my own.",
   };
   return (
     <Router>
