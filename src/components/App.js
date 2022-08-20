@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, HashRouter } from "react-router-dom";
 import Clients from "./Clients";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -21,52 +21,54 @@ const App = () => {
   };
   return (
     <Router>
-      <div>
-        <Switch>
-          <Route path="/" exact>
-            <Nav />
-            <section className="intro-layout has-text-centered">
-              <Intro />
-            </section>
-            <section className="section is-primary has-text-centered">
-              <SubHeading
-                title={descriptionObj.aboutTitle}
-                description={descriptionObj.aboutDescription}
-              />
-            </section>
-            <section className="section skill-layout has-text-centered">
-              <Skills />
-            </section>
-            <section className="section is-medium has-text-centered">
-              <MyWork />
-            </section>
-            <section className="section is-medium has-text-centered has-border-top">
-              <Clients />
-            </section>
-            <section className="section is-primary has-text-centered">
-              <SubHeading
-                title={descriptionObj.projectTitle}
-                description={descriptionObj.projectDescription}
-              />
-            </section>
-            <section className="section projects-layout has-text-centered">
-              <Projects />
-            </section>
-            <section className="section call-to-action is-primary has-text-centered">
-              <StartProject />
-            </section>
-            <footer className="is-small has-text-centered">
-              <Footer />
-            </footer>
-          </Route>
-          {/* <Redirect exact from="/" to="/" /> */}
-          <Route path="/contact">
-            <section className="animate-fadeDown">
-              <Contact />
-            </section>
-          </Route>
-        </Switch>
-      </div>
+      <HashRouter basename='/'>
+        <div>
+          <Switch>
+            <Route path="/" exact>
+              <Nav />
+              <section className="intro-layout has-text-centered">
+                <Intro />
+              </section>
+              <section className="section is-primary has-text-centered">
+                <SubHeading
+                  title={descriptionObj.aboutTitle}
+                  description={descriptionObj.aboutDescription}
+                />
+              </section>
+              <section className="section skill-layout has-text-centered">
+                <Skills />
+              </section>
+              <section className="section is-medium has-text-centered">
+                <MyWork />
+              </section>
+              <section className="section is-medium has-text-centered has-border-top">
+                <Clients />
+              </section>
+              <section className="section is-primary has-text-centered">
+                <SubHeading
+                  title={descriptionObj.projectTitle}
+                  description={descriptionObj.projectDescription}
+                />
+              </section>
+              <section className="section projects-layout has-text-centered">
+                <Projects />
+              </section>
+              <section className="section call-to-action is-primary has-text-centered">
+                <StartProject />
+              </section>
+              <footer className="is-small has-text-centered">
+                <Footer />
+              </footer>
+            </Route>
+            {/* <Redirect exact from="/" to="/" /> */}
+            <Route path="/contact">
+              <section className="animate-fadeDown">
+                <Contact />
+              </section>
+            </Route>
+          </Switch>
+        </div>
+      </HashRouter>
     </Router>
   );
 };
